@@ -3,6 +3,9 @@ import react from 'react';
 //we also need to import reactDom from react-dom module
 import reactDOM from 'react-dom';
 
+import 'node_module';
+
+
 //create an element with JSX code that would be automatically converted to javascript automatically 
 const element=<h1>Hello world my people its chisira!!</h1>;
 
