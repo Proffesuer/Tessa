@@ -5,7 +5,7 @@ import reactDOM from 'react-dom';
 //import the component from the counter
 import Counter from './my_component/counter';
 
-//import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 //create an element with JSX code that would be automatically converted to javascript automatically 
 
