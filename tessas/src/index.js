@@ -7,6 +7,7 @@ import Counter from './my_component/counter';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
+
 //create an element with JSX code that would be automatically converted to javascript automatically 
 
 //with a reactDom we nned to set our element on an id

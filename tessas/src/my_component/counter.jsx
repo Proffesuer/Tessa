@@ -1,42 +1,33 @@
 import React, { Component } from 'react';
 
 class Counter extends Component {
-    state={
-count:0,
-
-
-    };
-
+    state = {  } 
     render() { 
         return (
-        <React.Fragment>
-        <div className='container'>
-            <div className='row'>
-                <div className='col-sm-6'>
-            <span className='badge badge-primary m-2 bg-success'>{this.formatCount()}</span>
-            <button>Increment</button>
-            <p>hello  this is my first column on my first row guys thats is really great and am really proud about it that am keeping moving </p>
-            </div>
-        <div className='col-sm-5'>
-        <span className='badge badge-primary m-2 bg-success'>{this.formatCount()}</span>
-            <button>Increment</button>
-            <p>this is my second column on my first row guys and am really pround that i keep moving </p>
+            <div className='container'>
 
+<h1>Bennavi Softsolution</h1>
+<div className='row'>
+    <div className='col-sm-3 col-md-6 col-lg-4'>
+        <p>
+            Bennavi Softsolution is a startup located in the outcasts of Africa in Nairobi Kenya.
+            Determined to innovate solution for problems in the societies.
+            It was founded by Prof.Levis Chisira in the year 2022 as a small enterprise that saw it rise to big company.
 
-        </div>
-            </div>
-            </div>
+        </p>
 
-            </React.Fragment>
+    </div>
+    <div className='col-sm-3 col-md-6 col-lg-4'>
+        <img src="%PUBLIC_URL%/logo192.png" className='img-responsive'alt='picture'></img>
+        <a href='tabs.jsx'> another one</a>
+
+    </div>
+
+</div>
+
+</div>
         );
     }
-    formatCount(){
-        const {count} =this.state;
-
-        return count ===0 ? 'Zero' :count;
-
-    }
 }
-
  
 export default Counter;
