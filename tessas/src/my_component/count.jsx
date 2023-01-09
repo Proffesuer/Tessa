@@ -22,6 +22,7 @@ class Count extends Component{
 <p>Bennavi softsolution is located at the outcast of the Uasin Gishu county 
     and is currently working fully remotely with physical offices in Mailinne Riverside estate.
 </p>
+<img src='../public/logo512.png' width={'200px'} alt='My big picture'></img>
 
 </div>
 
